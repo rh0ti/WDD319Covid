@@ -26,6 +26,11 @@ body{
     color: white;
 }
 
+.covid-19 img{
+	height: 10%;
+	width: 10%;
+}
+
 @keyframes title-glow {
     0% {
 		text-shadow: 0 0 10px #393;
@@ -175,7 +180,7 @@ body{
     }
 } 
 
-/* ------------------------------- Section Information Box ------------------------------------- */
+/* ------------------------------- Section Information ------------------------------------- */
 
 .information-box{
     height: 300px;
