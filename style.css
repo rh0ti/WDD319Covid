@@ -26,7 +26,7 @@ body {
 	color: white;
 }
 
-.covid-19 img{
+.covid-19 img {
 	height: 10%;
 	width: 10%;
 }
@@ -216,6 +216,9 @@ body {
 	text-align: right;
 	padding-right: 20px;
 	transition: .4s ease;
+	list-style: none;
+	font-size: 24px;
+	width: 300px;
 }
 
 #list div li:hover {
@@ -224,6 +227,6 @@ body {
 
 #list div ul {
 	position: relative;
-	left: 335px;
+	left: 310px;
 	bottom: 59px;
 }
