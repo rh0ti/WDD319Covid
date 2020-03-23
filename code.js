@@ -8,14 +8,10 @@ $.ajax({
             $( "#list" ).append( `<div>
             <p>${listItem.country}</p>
             <ul>
-                <li>${listItem.cases}</li>
-                <li>${listItem.todayCases}</li>
-                <li>${listItem.deaths}</li>
-                <li>${listItem.todayDeaths}</li>
-                <li>${listItem.recovered}</li>
-                <li>${listItem.active}</li>
-                <li>${listItem.critical}</li>
-                <li>${listItem.casesPerOneMillion}</li>
+                <li>Total cases: ${listItem.cases}</li>
+                <li>Today cases: ${listItem.todayCases}</li>
+                <li>Deaths: ${listItem.deaths}</li>
+                <li>Recovered: ${listItem.recovered}</li>
             </ul>
         </div>` );
         })
@@ -41,14 +37,10 @@ $("form").submit(function(){
                 $( "#list" ).append( `<div>
                     <p>${result[0].country}</p>
                     <ul>
-                        <li>${result[0].cases}</li>
-                        <li>${result[0].todayCases}</li>
-                        <li>${result[0].deaths}</li>
-                        <li>${result[0].todayDeaths}</li>
-                        <li>${result[0].recovered}</li>
-                        <li>${result[0].active}</li>
-                        <li>${result[0].critical}</li>
-                        <li>${result[0].casesPerOneMillion}</li>
+                        <li>Total cases: ${result[0].cases}</li>
+                        <li>Today cases: ${result[0].todayCases}</li>
+                        <li>Deaths: ${result[0].deaths}</li>
+                        <li>Recovered: ${result[0].recovered}</li>
                     </ul>
                 </div>`);
             } else {
