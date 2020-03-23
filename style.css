@@ -213,7 +213,7 @@ body {
 
 #list div li {
 	color: white;
-	text-align: right;
+	text-align: left;
 	padding-right: 20px;
 	transition: .4s ease;
 	list-style: none;
